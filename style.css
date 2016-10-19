@@ -1,0 +1,107 @@
+.tab-container{
+    z-index: 10;
+    padding: 0 !important;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-clip: padding-box;
+    opacity: 0.97;
+    min-height:124px;
+}
+.tab-menu{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+div.tab-menu div.list-group{
+    margin-bottom: 0;
+}
+div.tab-menu div.list-group .list-group-item{
+    background-color: #eee;
+    border-color: #ccc;
+    border-right: none;
+    border-top: none;
+}
+div.tab-menu div.list-group:first-child {
+    border-top: 1px solid #ccc;
+    border-top-left-radius: 4px;
+}
+.tab-menu div.list-group>a{
+    margin-bottom: 0;
+}
+.tab-menu div.list-group>a .glyphicon,
+.tab-menu div.list-group>a .fa {
+    color: #5A55A3;
+}
+.tab-menu div.list-group>a:first-child{
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+.tab-menu div.list-group>a:last-child{
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+.tab-menu div.list-group>a.active,
+.tab-menu div.list-group>a.active .glyphicon,
+.tab-menu div.list-group>a.active .fa{
+    background-color: #ffffff;
+    color: black;
+}
+.tab-menu div.list-group>a.active:after{
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid #5A55A3;
+}
+.tab-content {
+    border: 1px solid #ccc;
+    min-height: inherit;
+}
+.tab-content-alone{
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.tab-content .tab-content-alone:not(.active){
+    display: none;
+}
+div.tab-container div.tab-menu,
+div.tab-container div.tab-content {
+    padding-left: 0 !important;
+}
+
+a.btn {
+    background-color: #f5f5f5;
+}
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+div.list-group a.list-group-item {
+    padding-top: 5px;
+    height: 30px;
+}
+
+#number_two th, #number_two td {
+    max-width: 120px;
+    font-weight: normal;
+}
+#number_two input {
+    max-width: 110px;
+    height: 21px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.bg-danger {
+    padding: 10px;
+}
+
+body p.description {
+    color: #bbb;
+    padding: 30px;
+    text-align: justify;
+}
